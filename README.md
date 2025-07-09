@@ -61,14 +61,14 @@ python main.py
 - Arquivo: `resultados/random_forest_model.pkl`
 - Relatório: [`random_forest_relatorio.txt`](./resultados/random_forest_relatorio.txt)
 - Matriz de Confusão:  
-  ![Random Forest](./resultados/matriz_confusao_random_forest.png)
+  ![Random Forest](./resultados/random_forest_matriz_confusao.png)
 
 ### 🎯 SVM
 
 - Arquivo: `resultados/svm_model.pkl`
 - Relatório: [`svm_relatorio.txt`](./resultados/svm_relatorio.txt)
 - Matriz de Confusão:  
-  ![SVM](./resultados/matriz_confusao_svm.png)
+  ![SVM](./resultados/svm_matriz_confusao.png)
 
 ## 📈 Métricas Avaliadas
 
