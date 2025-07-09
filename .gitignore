@@ -1,0 +1,45 @@
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# Modelos e dados binários que não deseja versionar individualmente
+*.joblib
+*.h5
+*.ckpt
+
+# Arquivos Jupyter (se houver)
+.ipynb_checkpoints/
+
+# Dados temporários
+*.tmp
+*.npy
+*.npz
+
+# VSCode/IDE
+.vscode/
+*.code-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Backup
+*~
+*.bak
+
+# Resultados exportados (figuras geradas podem ser comitadas se quiser)
+resultados/*.png
+
+# Permitindo img_sentinel e resultados no repositório
+!img_sentinel/
+!img_sentinel/**
+!resultados/
+!resultados/**
